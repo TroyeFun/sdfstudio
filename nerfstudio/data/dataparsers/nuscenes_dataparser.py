@@ -85,9 +85,9 @@ class NuScenes(DataParser):
         nusc = NuScenesDatabase(version=self.config.version, dataroot=self.config.data_dir, verbose=self.config.verbose)
         cameras = ["CAM_" + camera for camera in self.config.cameras]
 
-        assert (
-            len(cameras) == 1
-        ), "waiting on multiple camera support"  # TODO: remove once multiple cameras are supported
+        # assert (
+        #     len(cameras) == 1
+        # ), "waiting on multiple camera support"  # TODO: remove once multiple cameras are supported
 
         # get samples for scene
         samples = [
