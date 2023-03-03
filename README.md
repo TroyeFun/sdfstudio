@@ -45,6 +45,7 @@ git clone https://github.com/autonomousvision/sdfstudio.git
 cd sdfstudio
 pip install --upgrade pip setuptools
 pip install -e .
+pip install cryptography==2.8
 # install tab completion
 ns-install-cli
 ```
