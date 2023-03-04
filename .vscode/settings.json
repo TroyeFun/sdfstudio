@@ -31,7 +31,7 @@
   },
   "editor.formatOnSave": true,
   "python.envFile": "${workspaceFolder}/.env",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "yapf",
   "python.formatting.blackArgs": ["--line-length=120"],
   "python.linting.pylintEnabled": true,
   "python.linting.flake8Enabled": false,
@@ -130,5 +130,12 @@
     "reportOptionalCall": "none"
   },
   "python.languageServer": "Pylance",
-  "python.defaultInterpreterPath": "/home/yuzh/anaconda3/envs/monosdf/bin/python"
+  "python.defaultInterpreterPath": "/home/yuzh/anaconda3/envs/monosdf/bin/python",
+  "github.copilot.enable": {
+  
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  }
 }

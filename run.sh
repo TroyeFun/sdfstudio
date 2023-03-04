@@ -4,4 +4,4 @@ python scripts/viewer/view_dataset.py nuscenes-data --data_dir /home/robot/datas
 python scripts/viewer/view_dataset.py nuscenes-data --data_dir /home/robot/dataset/nuscenes/mini --data scene-1100 --cameras FRONT_LEFT FRONT_RIGHT FRONT
 
 # train nuscenes
-ns-train neus-facto --pipeline.model.sdf-field.inside-outside True --vis viewer --experiment-name nuscenes nuscenes-data --data_dir ~/dataset/nuscenes/mini --mask_dir ~/dataset/nuscenes-mask/mini --cameras FRONT FRONT_LEFT FRONT_RIGHT BACK BACK_LEFT BACK_RIGHT
+ns-train neus-facto --pipeline.model.sdf-field.inside-outside False --vis viewer --experiment-name nuscenes nuscenes-data --data_dir ~/dataset/nuscenes/mini --mask_dir ~/dataset/nuscenes-mask/mini --cameras FRONT FRONT_LEFT FRONT_RIGHT BACK BACK_LEFT BACK_RIGHT
